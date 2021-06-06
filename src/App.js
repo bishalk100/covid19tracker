@@ -89,7 +89,7 @@ class App extends Component {
             <h2 >Active cases</h2>
 
           </div>
-          <div className="card-body">{this.state.input.active}</div>
+          <div id="active1" className="card-body">{this.state.input.active}</div>
           
         </div>
         
@@ -100,7 +100,7 @@ class App extends Component {
             <h2 >Total cases</h2>
 
           </div>
-          <div className="card-body">{this.state.input.confirmed}</div>
+          <div id="total1"className="card-body">{this.state.input.confirmed}</div>
           
         </div>
 
@@ -111,7 +111,7 @@ class App extends Component {
             <h2 >Recovered</h2>
 
           </div>
-          <div className="card-body">{this.state.input.recovered}</div>
+          <div id="recovery1"className="card-body">{this.state.input.recovered}</div>
           
         </div>
 
@@ -120,7 +120,7 @@ class App extends Component {
             <h2 >Death cases</h2>
 
           </div>
-          <div className="card-body">{this.state.input.deaths}</div>
+          <div id="death1" className="card-body">{this.state.input.deaths}</div>
           
         </div>
         </div>
@@ -132,7 +132,7 @@ class App extends Component {
             <h2 >Last updated on</h2>
 
           </div>
-          <div className="card-body">{this.state.input.lastupdatedtime} </div>
+          <div id="lastup1"className="card-body">{this.state.input.lastupdatedtime} </div>
           
         </div>
         <div className="table">

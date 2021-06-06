@@ -44,16 +44,16 @@ h1{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: large;
 }
-#active{
+#active,#active1{
   background-color: red;
 }
-#recovery{
+#recovery,#recovery1{
   background-color: rgb(44, 236, 44);
 }
-#total{
+#total,#total1{
   background-color: grey;
 }
-#death{
+#death,#death1{
   background-color:indianred;
 }
 .body{
@@ -64,7 +64,7 @@ h1{
   border:solid;
   background-color: crimson;
 }
-#lastup{
+#lastup,#lastup1{
   height: 10vh;
   width: 10vw;
   
