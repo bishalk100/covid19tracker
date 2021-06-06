@@ -23,10 +23,10 @@ h1{
 /* position of corona animation */
 @keyframes MoveUpDown {
   0%, 100% {
-    top: 150px;
+    top: 300px;
   }
   50% {
-    top: 250px;
+    top: 350px;
   }
 }
 
@@ -35,7 +35,7 @@ h1{
   width: 100vw;
   height: 10vh;
   border-radius: 1em;
-  margin: 2rem;
+  margin: 2%;
   
   
 
