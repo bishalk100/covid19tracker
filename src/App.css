@@ -2,8 +2,9 @@
   background-color: #e059e0;
   background-image: url('./fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
   background-size: cover;
+  
   text-align: center;
   height: 100vh;margin-top: 0;
   width: 100vw;
@@ -14,59 +15,31 @@ h1{
   color: #051b18;
 }
 
-.animatediv{
-  animation: MoveUpDown 10s linear infinite;
-  position: absolute;
 
-  right: 20px;
-  }
-/* position of corona animation */
-@keyframes MoveUpDown {
-  0%, 100% {
-    top: 300px;
-  }
-  50% {
-    top: 350px;
-  }
-}
 
 .card{
-  text-align: center;
-  width: 100vw;
-  height: 10vh;
-  border-radius: 1em;
-  margin: 2%;
-  
-  
-
+  margin-bottom: 5rem;
+  margin-top: 5rem;
 }
-.card-body{
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-size: large;
-}
-#active,#active1{
+.active{
   background-color: red;
 }
-#recovery,#recovery1{
+.recovery{
   background-color: rgb(44, 236, 44);
 }
-#total,#total1{
+.total{
   background-color: grey;
 }
-#death,#death1{
+.death{
   background-color:indianred;
 }
 .body{
   display: flex;
+  justify-content: space-between;
 
 }
-.card{
-  border:solid;
+.lastup{
   background-color: crimson;
-}
-#lastup,#lastup1{
-  height: 10vh;
-  width: 10vw;
   
 }
 
