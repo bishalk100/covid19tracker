@@ -15,6 +15,14 @@ h1{
   color: #051b18;
 }
 
+@media (max-width:768px){
+  .card{
+    height: 3.2rem;
+    width: 3rem;
+    font-size: 10px;
+    margin:0.5rem;
+  }
+}
 
 
 .card{
